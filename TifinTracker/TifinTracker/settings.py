@@ -28,6 +28,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = [ 'tifintracker-production.up.railway.app', 'localhost', '127.0.0.1']
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://tifintracker-production.up.railway.app",
+]
 
 # Application definition
 
