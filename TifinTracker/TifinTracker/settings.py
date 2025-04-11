@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-)3kxp!1#)qsvu-+zri+o66yy98p=ayb(g8$ft=%9nox#!1)ll)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tifintracker.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
